@@ -13,24 +13,24 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-** I am Stylish Font Bot ✍️**
+** 𝑰 𝒂𝒎 𝑺𝒕𝒚𝒍𝒊𝒔𝒉 𝑻𝒆𝒙𝒕 𝑩𝒐𝒕 ✍️**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒕𝒐 𝒈𝒆𝒕 𝒔𝒕𝒚𝒍𝒊𝒔𝒉 𝒇𝒐𝒏𝒕𝒔. 𝑱𝒖𝒔𝒕 𝒔𝒆𝒏𝒅 𝒎𝒆 𝒔𝒐𝒎𝒆 𝒕𝒆𝒙𝒕 𝒂𝒏𝒅 𝒔𝒆𝒆 𝒎𝒂𝒈𝒊𝒄.`
 
-** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346)
+** Channel:** ❤️ ▷ [@Tg_Galaxy](https://t.me/Tg_Galaxy)
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('👥 Group', url=f"https://t.me/fucuvuvnsdbjhxz"),
+            InlineKeyboardButton('Channel 📢', url=f"https://t.me/Tg_Galaxy")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ZauteKm")
+            InlineKeyboardButton('🌲 CdT', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('Bot🔻', url=f"https://t.me/iZavivvivbibi"),
+            InlineKeyboardButton('🔹🔹🔹🔹GP🔹🔹🔹🔹', url=f"https://github.com/Kimzukkerbug")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
+            InlineKeyboardButton('⚜️ TG ⚜️', url=f"t.me/Tg_Galaxy")
         ]
     ]
     await m.reply_text(
