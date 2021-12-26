@@ -13,11 +13,11 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-** 𝑰 𝒂𝒎 𝑺𝒕𝒚𝒍𝒊𝒔𝒉 𝑻𝒆𝒙𝒕 𝑩𝒐𝒕 ✍️**
+** 𝑰 𝒂𝒎 𝑺𝒕𝒚𝒍𝒊𝒔𝒉 𝑻𝒆𝒙𝒕 𝑩𝒐𝒕 📝**
 
 `𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒕𝒐 𝒈𝒆𝒕 𝒔𝒕𝒚𝒍𝒊𝒔𝒉 𝒇𝒐𝒏𝒕𝒔. 𝑱𝒖𝒔𝒕 𝒔𝒆𝒏𝒅 𝒎𝒆 𝒔𝒐𝒎𝒆 𝒕𝒆𝒙𝒕 𝒂𝒏𝒅 𝒔𝒆𝒆 𝒎𝒂𝒈𝒊𝒄.`
 
-** Channel:** ❤️ ▷ [@Tg_Galaxy](https://t.me/Tg_Galaxy)
+** Channel:** 🌪️ ▷ [@Tg_Galaxy](https://t.me/Tg_Galaxy)
 """
 
     # Buttons
@@ -26,9 +26,9 @@ async def start(c, m):
             InlineKeyboardButton('👥 Group', url=f"https://t.me/fucuvuvnsdbjhxz"),
             InlineKeyboardButton('Channel 📢', url=f"https://t.me/Tg_Galaxy")
             ],[
-            InlineKeyboardButton('🌲 CdT', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('🌲 CDT', url=f"https://t.me/{owner_username}"),
             InlineKeyboardButton('Bot🔻', url=f"https://t.me/iZavivvivbibi"),
-            InlineKeyboardButton('🔹🔹🔹🔹GP🔹🔹🔹🔹', url=f"https://github.com/Kimzukkerbug")
+            InlineKeyboardButton('🔹🔹GPH 🔹🔹', url=f"https://github.com/Kimzukkerbug")
             ],[
             InlineKeyboardButton('⚜️ TG ⚜️', url=f"t.me/Tg_Galaxy")
         ]
