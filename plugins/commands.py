@@ -23,7 +23,7 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('😝 Group', url=f"https://t.me/fucuvuvnsdbjhxz"),
+            InlineKeyboardButton('👥 Group', url=f"https://t.me/fucuvuvnsdbjhxz"),
             InlineKeyboardButton('Channel 📢', url=f"https://t.me/Tg_Galaxy")
             ],[
             InlineKeyboardButton('🌲 CDT', url=f"https://t.me/{owner_username}"),
