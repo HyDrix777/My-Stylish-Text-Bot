@@ -11,26 +11,22 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'zautebot'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""ʜᴇʏ! {m.from_user.mention(style='md')},
 
-** 𝑰 𝒂𝒎 𝑺𝒕𝒚𝒍𝒊𝒔𝒉 𝑻𝒆𝒙𝒕 𝑩𝒐𝒕 📝**
+**✏️ ɪ ᴀᴍ sᴛʏʟɪsʜ ᴛᴇxᴛ ʙᴏᴛ **
 
-`𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒕𝒐 𝒈𝒆𝒕 𝒔𝒕𝒚𝒍𝒊𝒔𝒉 𝒇𝒐𝒏𝒕𝒔. 𝑱𝒖𝒔𝒕 𝒔𝒆𝒏𝒅 𝒎𝒆 𝒔𝒐𝒎𝒆 𝒕𝒆𝒙𝒕 𝒂𝒏𝒅 𝒔𝒆𝒆 𝒎𝒂𝒈𝒊𝒄.`
+**I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴛᴇxᴛ.**
 
-** Channel:** 🌪️ ▷ [@Tg_Galaxy](https://t.me/Tg_Galaxy)
+** ᴍʏ ɢʀᴏᴜᴘ:** ➥ [@Tg_Galaxy](https://t.me/Music_Galaxy_Dl)
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/fucuvuvnsdbjhxz"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/Tg_Galaxy")
+            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url=f"https://t.me/Music_Galaxy_Dl"),
+            InlineKeyboardButton('📢 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/Tg_Galaxy")
             ],[
-            InlineKeyboardButton('🌲 CDT', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot🔻', url=f"https://t.me/iZavivvivbibi"),
-            InlineKeyboardButton('🔹🔹GPH 🔹🔹', url=f"https://github.com/Kimzukkerbug")
-            ],[
-            InlineKeyboardButton('⚜️ TG ⚜️', url=f"t.me/Tg_Galaxy")
+            InlineKeyboardButton('🎵 ᴍɢ 🎵', url=f"https://t.me/Music_Galaxy_Dl")
         ]
     ]
     await m.reply_text(
