@@ -16,8 +16,6 @@ async def start(c, m):
 **✏️ ɪ ᴀᴍ sᴛʏʟɪsʜ ᴛᴇxᴛ ʙᴏᴛ **
 
 **I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴛᴇxᴛ.**
-
-** ᴍʏ ɢʀᴏᴜᴘ:** ➥ [@Tg_Galaxy](https://t.me/Music_Galaxy_Dl)
 """
 
     # Buttons
