@@ -1185,9 +1185,9 @@ class Fonts:
     def happy(text):
         style = {
             'a': 'ɐ',
-            'b': 'p',
+            'b': 'q',
             'c': 'ɔ',
-            'd': 'q',
+            'd': 'p',
             'e': 'ǝ',
             'f': 'ɟ',
             'g': 'ɓ',
