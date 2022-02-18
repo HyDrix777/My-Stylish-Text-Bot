@@ -1656,7 +1656,7 @@ class Fonts:
 
     def bubbles(text):
         style = {
-            'a': 'ḁͦ',
+            'a': '╔══╗\n║╔╗║\n║╠╣║\n╚╝╚╝',
             'b': 'b̥ͦ',
             'c': 'c̥ͦ',
             'd': 'd̥ͦ',
