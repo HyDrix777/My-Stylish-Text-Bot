@@ -63,7 +63,7 @@ async def style_buttons(c, m, cb=False):
         ],[
         InlineKeyboardButton('Cʟօʊɖ', callback_data='style+cloud'),
         InlineKeyboardButton('ꓵdsᴉd', callback_data='style+happy'),
-        InlineKeyboardButton('S̑̈ȃ̈d̑̈', callback_data='style+sad'),
+        InlineKeyboardButton('ᏰiᎶᏝᏋ', callback_data='style+sad'),
         ],[
         InlineKeyboardButton('Next ➡️', callback_data="nxt")
     ]]
