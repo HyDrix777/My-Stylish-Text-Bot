@@ -13,18 +13,17 @@ async def start(c, m):
     # start text
     text = f"""ʜᴇʏ! {m.from_user.mention(style='md')},
 
-**✏️ ɪ ᴀᴍ sᴛʏʟɪsʜ ᴛᴇxᴛ ʙᴏᴛ **
+**[✏️](https://telegra.ph/file/648381c22575438a193b9.jpg) ɪ ᴀᴍ sᴛʏʟɪsʜ ᴛᴇxᴛ ʙᴏᴛ **
 
-**I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴛᴇxᴛ.**
+**I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴇxᴛ.**
+**ɪ ʜᴀᴠᴇ ɴᴇᴡ sᴛʏʟᴇ ᴛᴇxᴛs ɢᴏ ᴀɴᴅ ᴄʜᴇᴄᴋ ɪᴛ** ♥️
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url=f"https://t.me/Music_Galaxy_Dl"),
+            InlineKeyboardButton('👥 Mʏ ɢʀᴏᴜᴘ', url=f"https://t.me/Music_Galaxy_Dl"),
             InlineKeyboardButton('📢 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/Tg_Galaxy")
-            ],[
-            InlineKeyboardButton('🎵 ᴍɢ 🎵', url=f"https://t.me/Music_Galaxy_Dl")
         ]
     ]
     await m.reply_text(
