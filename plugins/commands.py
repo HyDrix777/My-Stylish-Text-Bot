@@ -84,7 +84,7 @@ async def nxt(c, m):
             ],[
             InlineKeyboardButton('ꪖꪀᦔꪖꪶꪊᥴ𝓲ꪖ', callback_data='style+andalucia'),
             InlineKeyboardButton('爪卂几ᘜ卂', callback_data='style+manga'),
-            InlineKeyboardButton('S̾t̾i̾n̾k̾y̾', callback_data='style+stinky'),
+            InlineKeyboardButton('丂ｲﾉ刀ズﾘ', callback_data='style+stinky'),
             ],[
             InlineKeyboardButton('ՏԹɑɾԵɑ', callback_data='style+bubbles'),
             InlineKeyboardButton('U͟n͟d͟e͟r͟l͟i͟n͟e͟', callback_data='style+underline'),
