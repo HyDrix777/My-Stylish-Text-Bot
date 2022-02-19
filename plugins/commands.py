@@ -64,7 +64,7 @@ async def style_buttons(c, m, cb=False):
         InlineKeyboardButton('𝔊𝔬𝔱𝔥𝔦𝔠', callback_data='style+gothic'),
         InlineKeyboardButton('𝕲𝖔𝖙𝖍𝖎𝖈', callback_data='style+gothic_bolt'),
         ],[
-        InlineKeyboardButton('Cʟօʊɖ', callback_data='style+cloud'),
+        InlineKeyboardButton('📧〽🅾🎷ℹ', callback_data='style+cloud'),
         InlineKeyboardButton('ꓵdsᴉd', callback_data='style+happy'),
         InlineKeyboardButton('ᏰiᎶᏝᏋ', callback_data='style+sad'),
         ],[
