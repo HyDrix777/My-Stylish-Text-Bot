@@ -68,7 +68,8 @@ async def style_buttons(c, m, cb=False):
         InlineKeyboardButton('ꓵdsᴉd', callback_data='style+happy'),
         InlineKeyboardButton('ᏰiᎶᏝᏋ', callback_data='style+sad'),
         ],[
-        InlineKeyboardButton('ɴᴇxᴛ 》》', callback_data="nxt")
+        InlineKeyboardButton('ɴᴇxᴛ 》》', callback_data="nxt"),
+        InlineKeyboardButton("👥 ᴍʏ ɢʀᴏᴜᴘ", url="https://t.me/Music_Galaxy_Dl")
     ]]
     if not cb:
         await m.reply_text(m.text, reply_markup=InlineKeyboardMarkup(buttons), quote=True)
@@ -105,7 +106,8 @@ async def nxt(c, m):
             InlineKeyboardButton('S̶t̶r̶i̶k̶e̶', callback_data='style+strike'),
             InlineKeyboardButton('Ƒяσz', callback_data='style+frozen')
             ],[
-            InlineKeyboardButton('《《 ʙᴀᴄᴋ', callback_data='nxt+0')
+            InlineKeyboardButton('《《 ʙᴀᴄᴋ', callback_data='nxt+0'),
+            InlineKeyboardButton("👥 ᴍʏ ɢʀᴏᴜᴘ", url="https://t.me/Music_Galaxy_Dl")
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
