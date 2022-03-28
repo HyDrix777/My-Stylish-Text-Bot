@@ -50,7 +50,7 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Mʏ ɢʀᴏᴜᴘ', url=f"https://t.me/Music_Galaxy_Dl"),
+            InlineKeyboardButton('👥 Mʏ ɢʀᴏᴜᴘ', url=f"https://t.me/songdownload_group"),
             InlineKeyboardButton('📢 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/Tg_Galaxy")
         ]
     ]
@@ -63,6 +63,23 @@ async def start(c, m):
 
 @Client.on_message(filters.private & filters.incoming & filters.text)
 async def style_buttons(c, m, cb=False):
+    if force_subhydra:
+        try:
+            user = await c. get_chat_member(force_subhydra, m.from_user.id)
+            if user.status == "kick out":
+                await m.reply_text("you are banned")
+                return
+        except UserNotParticipant:
+            await m.reply_text(
+                text="𝐘𝐨𝐮 𝐚𝐫𝐞 𝐍𝐨𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 𝐦𝐲 𝐠𝐫𝐨𝐮𝐩\n\n❤️𝐅𝐢𝐫𝐬𝐭 𝐣𝐨𝐢𝐧 𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 𝐭𝐡𝐞𝐧 𝐂𝐥𝐢𝐜𝐤 𝐬𝐭𝐚𝐫𝐭 𝐁𝐨𝐭𝐭𝐨𝐧 ⚡",
+                reply_markup=InlineKeyboardMarkup( [[
+                 InlineKeyboardButton("Join My Group", url=f"t.me/{force_subhydra}")
+                 ],[
+                 InlineKeyboardButton("Click start Botton", url="https://t.me/StylishText_X_Bot?start")
+                 ]]
+                )
+            )
+            return
     buttons = [[
         InlineKeyboardButton('𝚃𝚢𝚙𝚎𝚠𝚛𝚒𝚝𝚎𝚛', callback_data='style+typewriter'),
         InlineKeyboardButton('𝕆𝕦𝕥𝕝𝕚𝕟𝕖', callback_data='style+outline'),
