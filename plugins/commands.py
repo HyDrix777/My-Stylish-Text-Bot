@@ -35,7 +35,7 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'zautebot'
 
     # start text
-    text = f"""ʜᴇʏ! {m.from_user.mention(style='md')},
+    text = f"""👋 ʜᴇʏ! {m.from_user.mention(style='md')},
 
 ╔╗╔╗╔═╗╔╗─╔╗─╔═╗
 ║╚╝║║╦╝║║─║║─║║║
