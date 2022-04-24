@@ -45,6 +45,8 @@ async def start(c, m):
 
 **I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴇxᴛ.**
 **ɪ ʜᴀᴠᴇ ɴᴇᴡ sᴛʏʟᴇ ᴛᴇxᴛs ɢᴏ ᴀɴᴅ ᴄʜᴇᴄᴋ ɪᴛ ᴏᴜᴛ** ♥️
+👨‍💻**Bot Developer:** [Click](https://github.com/Ns-Bots)
+🚶‍♂️**Bot Maintained by:** [Hydrix](https://t.me/HydraLivegrambot)
 """
 
     # Buttons
