@@ -22,7 +22,7 @@ async def start(c, m):
                 return
         except UserNotParticipant:
             await m.reply_text(
-                text="𝐘𝐨𝐮 𝐚𝐫𝐞 𝐍𝐨𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 𝐦𝐲 𝐠𝐫𝐨𝐮𝐩.\n\n❤️𝐅𝐢𝐫𝐬𝐭 𝐣𝐨𝐢𝐧 𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 𝐭𝐡𝐞𝐧 𝐂𝐥𝐢𝐜𝐤 𝐬𝐭𝐚𝐫𝐭 𝐁𝐨𝐭𝐭𝐨𝐧 ⚡",
+                text=f"ʜᴇʏ {m.from_user.first_name} 🙂Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴍʏ ɢʀᴏᴜᴘ.\n\nғɪʀsᴛ ᴊᴏɪɴ ᴛᴏ ᴍʏ ɢʀᴏᴜᴘ ᴛʜᴇɴ ᴄʟɪᴄᴋ sᴛᴀʀᴛ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 😊❤️",
                 reply_markup=InlineKeyboardMarkup( [[
                  InlineKeyboardButton("Join My Group", url=f"t.me/{force_subhydra}")
                  ],[
@@ -73,7 +73,7 @@ async def style_buttons(c, m, cb=False):
                 return
         except UserNotParticipant:
             await m.reply_text(
-                text="𝐘𝐨𝐮 𝐚𝐫𝐞 𝐍𝐨𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 𝐦𝐲 𝐠𝐫𝐨𝐮𝐩\n\n❤️𝐅𝐢𝐫𝐬𝐭 𝐣𝐨𝐢𝐧 𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 𝐭𝐡𝐞𝐧 𝐂𝐥𝐢𝐜𝐤 𝐬𝐭𝐚𝐫𝐭 𝐁𝐨𝐭𝐭𝐨𝐧 ⚡",
+                text=f"ʜᴇʏ {m.from_user.first_name} 🙂Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴍʏ ɢʀᴏᴜᴘ.\n\nғɪʀsᴛ ᴊᴏɪɴ ᴛᴏ ᴍʏ ɢʀᴏᴜᴘ ᴛʜᴇɴ ᴄʟɪᴄᴋ sᴛᴀʀᴛ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 😊❤️",
                 reply_markup=InlineKeyboardMarkup( [[
                  InlineKeyboardButton("Join My Group", url=f"t.me/{force_subhydra}")
                  ],[
