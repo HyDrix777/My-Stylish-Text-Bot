@@ -22,7 +22,7 @@ async def start(c, m):
                 return
         except UserNotParticipant:
             await m.reply_text(
-                text="𝐘𝐨𝐮 𝐚𝐫𝐞 𝐍𝐨𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 𝐦𝐲 𝐠𝐫𝐨𝐮𝐩\n\n❤️𝐅𝐢𝐫𝐬𝐭 𝐣𝐨𝐢𝐧 𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 𝐭𝐡𝐞𝐧 𝐂𝐥𝐢𝐜𝐤 𝐬𝐭𝐚𝐫𝐭 𝐁𝐨𝐭𝐭𝐨𝐧 ⚡",
+                text="𝐘𝐨𝐮 𝐚𝐫𝐞 𝐍𝐨𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 𝐦𝐲 𝐠𝐫𝐨𝐮𝐩.\n\n❤️𝐅𝐢𝐫𝐬𝐭 𝐣𝐨𝐢𝐧 𝐌𝐲 𝐆𝐫𝐨𝐮𝐩 𝐭𝐡𝐞𝐧 𝐂𝐥𝐢𝐜𝐤 𝐬𝐭𝐚𝐫𝐭 𝐁𝐨𝐭𝐭𝐨𝐧 ⚡",
                 reply_markup=InlineKeyboardMarkup( [[
                  InlineKeyboardButton("Join My Group", url=f"t.me/{force_subhydra}")
                  ],[
