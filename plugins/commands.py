@@ -151,7 +151,7 @@ async def nxt(c, m):
             InlineKeyboardButton('Ƒяσz', callback_data='style+frozen')
             ],[
             InlineKeyboardButton('《《 ʙᴀᴄᴋ', callback_data='nxt+0'),
-            InlineKeyboardButton("👥 ᴍʏ ɢʀᴏᴜᴘ", url="https://t.me/Music_Galaxy_Dl")
+            InlineKeyboardButton("👥 ᴍʏ ɢʀᴏᴜᴘ", url="https://t.me/Music_Galaxy_Dl"),
             InlineKeyboardButton('next', callback_data='nxt2')
         ]]
         await m.answer()
