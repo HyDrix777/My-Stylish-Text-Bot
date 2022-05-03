@@ -160,9 +160,7 @@ async def nxt(c, m):
         await style_buttons(c, m, cb=True)
 
 
-@Client.on_callback_query(filters.regex('^nxt2'))
-async def nxt(c, m):
-    elif m.data == "nxt":
+    elif m.data == "nxt2":
         buttons = [[
             InlineKeyboardButton('soon', callback_data='style+special'),
             InlineKeyboardButton('soon', callback_data='style+squares'),
@@ -175,6 +173,7 @@ async def nxt(c, m):
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
     else:
         await style_buttons(c, m, cb=True)
+
 
 @Client.on_callback_query(filters.regex('^style'))
 async def style(c, m):
