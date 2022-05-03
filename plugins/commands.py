@@ -152,12 +152,29 @@ async def nxt(c, m):
             ],[
             InlineKeyboardButton('《《 ʙᴀᴄᴋ', callback_data='nxt+0'),
             InlineKeyboardButton("👥 ᴍʏ ɢʀᴏᴜᴘ", url="https://t.me/Music_Galaxy_Dl")
+            InlineKeyboardButton('next', callback_data='nxt2')
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
     else:
         await style_buttons(c, m, cb=True)
 
+
+@Client.on_callback_query(filters.regex('^nxt2'))
+async def nxt(c, m):
+    elif m.data == "nxt":
+        buttons = [[
+            InlineKeyboardButton('soon', callback_data='style+special'),
+            InlineKeyboardButton('soon', callback_data='style+squares'),
+            InlineKeyboardButton('soon', callback_data='style+squares_bold')
+            ],[
+            InlineKeyboardButton('《《 ʙᴀᴄᴋ', callback_data='nxt'),
+            InlineKeyboardButton("👥 ᴍʏ ɢʀᴏᴜᴘ", url="https://t.me/Music_Galaxy_Dl")
+        ]]
+        await m.answer()
+        await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
+    else:
+        await style_buttons(c, m, cb=True)
 
 @Client.on_callback_query(filters.regex('^style'))
 async def style(c, m):
